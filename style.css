@@ -1,0 +1,27 @@
+@font-face {
+    font-family: Poppins;
+    src: url(fonty/Poppins-Regular.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: Poppins;
+    src: url(fonty/Poppins-Bold.ttf);
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: Poppins;
+    color: rgb(110, 109, 109);
+}
+
+img {
+    border-radius: 50%;
+    border: 3px solid white; 
+}
+
+header {
+    text-align: center;
+}
