@@ -20,31 +20,30 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: right bottom;
-  
 }
 
 header img {
     border-radius: 50%;   
     width: 250px;
     padding: 60px 0px;
-    
-    
+}
+
+.foto {
+    text-align: center;
 }
 
 header {
-    text-align: center;
     background-color: lightgray;
-   
+    padding: 0 20%;
 }
 
 h1 {
     text-transform: uppercase;
     font-size: 40px;
     text-align: center;
-    margin-bottom: 0;
-    padding-left: 0;
-    border-bottom: 3px solid lightgray;
-    
+    margin:0;
+    border-bottom: 3px solid gray;
+    padding-top: 60px;
 }
 
 h2 {
@@ -53,12 +52,11 @@ h2 {
     font-size: 25px;
     margin: 0;
     margin-top: 60px;
-   
 }
 
 .job {
-    text-align: center;
-    margin-top: 0;
+   text-align: center;
+   margin-top: 0;
 }
 
 footer {
@@ -70,27 +68,18 @@ section{
     border-top: 3px solid lightgray;  
     padding-left: 10%;
     margin: 0 20%;
-
 }
 
-.profile {
-    padding-left: 0;
-    border-top: 0;
-}
-
-
-
-table{
+table {
     border-spacing: 0;
-    margin-top: 20px;
-    
+    margin-top: 20px; 
 }
 
 th, td {
-  
     padding: 10px 30px;
     text-align: left;
 }
+
 .adress {
     vertical-align:top ;
 }
@@ -98,11 +87,10 @@ th, td {
 a {
     display:inline-flex;
 }
+
 a:hover {
     background-color: lightgrey;
-    /* border-bottom: 3px solid lightgray */
-
-   
+    border-radius: 25%;
 }
 
 ul {
