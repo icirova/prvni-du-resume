@@ -11,14 +11,14 @@
 
 body {
     margin: 0;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.5;
     font-family: Poppins;
     background-color:white;
     color: grey;
 }
 
-img {
+header img {
     border-radius: 50%;
     border: 3px solid grey; 
     width: 250px;
@@ -85,4 +85,19 @@ th, td {
 }
 .adress {
     vertical-align:top ;
+}
+
+a {
+    display:inline-flex;
+}
+a:hover {
+    /* background-color: lightgrey; */
+    border-bottom: 3px solid lightgray
+
+   
+}
+
+ul {
+   list-style-type: none; 
+   padding-left: 0;
 }
