@@ -14,19 +14,27 @@ body {
     font-size: 18px;
     line-height: 1.5;
     font-family: Poppins;
-    background-color:white;
+    background-color: #e9e8e6;
     color: grey;
+    background-image: url(pozadi/plant-g11988ec55_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: right bottom;
+  
 }
 
 header img {
-    border-radius: 50%;
-    border: 3px solid grey; 
+    border-radius: 50%;   
     width: 250px;
+    padding: 60px 0px;
+    
+    
 }
 
 header {
     text-align: center;
-    padding-top: 40px;
+    background-color: lightgray;
+   
 }
 
 h1 {
@@ -44,7 +52,7 @@ h2 {
     text-align: center;
     font-size: 25px;
     margin: 0;
-    margin-top: 40px;
+    margin-top: 60px;
    
 }
 
@@ -91,8 +99,8 @@ a {
     display:inline-flex;
 }
 a:hover {
-    /* background-color: lightgrey; */
-    border-bottom: 3px solid lightgray
+    background-color: lightgrey;
+    /* border-bottom: 3px solid lightgray */
 
    
 }
