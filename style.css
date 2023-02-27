@@ -14,14 +14,75 @@ body {
     font-size: 20px;
     line-height: 1.5;
     font-family: Poppins;
-    color: rgb(110, 109, 109);
+    background-color:white;
+    color: grey;
 }
 
 img {
     border-radius: 50%;
-    border: 3px solid white; 
+    border: 3px solid grey; 
+    width: 250px;
 }
 
 header {
     text-align: center;
+    padding-top: 40px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 0;
+    padding-left: 0;
+    border-bottom: 3px solid lightgray;
+    
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+    margin-top: 40px;
+   
+}
+
+.job {
+    text-align: center;
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 0px;
+}
+
+section{
+    border-top: 3px solid lightgray;  
+    padding-left: 10%;
+    margin: 0 20%;
+
+}
+
+.profile {
+    padding-left: 0;
+    border-top: 0;
+}
+
+
+
+table{
+    border-spacing: 0;
+    margin-top: 20px;
+    
+}
+
+th, td {
+  
+    padding: 10px 30px;
+    text-align: left;
+}
+.adress {
+    vertical-align:top ;
 }
